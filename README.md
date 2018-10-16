@@ -63,5 +63,5 @@ angr提供克服所有这些挑战的组件。 这本书将解释每一个部分
 
 ## 更进一步：
 
-你可以阅读[论文](https://www.cs.ucsb.edu/~vigna/publications/2016_SP_angrSoK.pdf), 解释一些内部，算法和使用的技术，以更好地了解背后发生的事情。
+你可以阅读[论文](https://www.cs.ucsb.edu/~vigna/publications/2016_SP_angrSoK.pdf), 它一些内部，算法和使用的技术，可以更好地了解内部发生的事情。
 

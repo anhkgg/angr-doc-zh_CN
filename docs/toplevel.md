@@ -25,7 +25,7 @@
 '/bin/true'
 ```
 
-* _arch_ 是`archinfo.Arch`对象的一个实例，表示表示编译程序的体系结构，本例中是amd64小端模式。它包含了大量有关运行CPU的文书数据，你可以在[闲暇时](https://github.com/angr/archinfo/blob/master/archinfo/arch_amd64.py)仔细阅读。你通常关心的是`arch.bits`, `arch.bytes` \(这个是[主 `Arch` 类](https://github.com/angr/archinfo/blob/master/archinfo/arch.py)的一个`@property`声明), `arch.name`和`arch.memory_endness`.
+* _arch_ 是`archinfo.Arch`对象的一个实例，表示表示编译程序的体系结构，本例中是amd64小端模式。它包含了大量有关运行CPU的文书数据，你可以在[闲暇时](https://github.com/angr/archinfo/blob/master/archinfo/arch_amd64.py)仔细阅读。你通常关心的是`arch.bits`, `arch.bytes` （这个是[主 `Arch` 类](https://github.com/angr/archinfo/blob/master/archinfo/arch.py)的一个`@property`声明）, `arch.name`和`arch.memory_endness`.
 * _entry_ 是入口地址
 * _filename_ 是二进制文件的绝对路径。
 
@@ -63,7 +63,7 @@ angr中有很多类，大多需要实例化的project。为了不让你到处传
 
 #### Blocks
 
-首先，`project.factory.block()`用来提取给定地址代码的基本块（[basic block](https://en.wikipedia.org/wiki/Basic_block)）。_angr就是以基本块为单位进行代码分析。_你可以用Block对象来获取到很多有关代码块的有趣的东西。
+首先，`project.factory.block()`用来提取给定地址代码的基本块（[basic block](https://en.wikipedia.org/wiki/Basic_block)）。angr就是以基本块为单位进行代码分析。你可以用Block对象来获取到很多有关代码块的有趣的东西。
 
 ```python
 >>> block = proj.factory.block(proj.entry) # 提取程序入口的一段代码

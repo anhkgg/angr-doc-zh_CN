@@ -19,7 +19,9 @@ angr提供克服所有这些挑战的组件。 这本书将解释每一个部分
 
 安装说明可以看[这里](./INSTALL.md)。
 
-要深入研究angr的功能，请从[top level methods](./docs/toplevel.md)开始，然后从那里开始阅读。
+要深入研究angr的功能，请从[顶层接口](./docs/toplevel.md)开始阅读。
+
+快速查找相关内容，请查看[摘要](./SUMMARY.md)。
 
 [docs.angr.io](https://docs.angr.io/)提供了一个可搜索的HTML版本的文档, 在[angr.io/api-doc](https://angr.io/api-doc/)可以找到HTML API的参考.
 
